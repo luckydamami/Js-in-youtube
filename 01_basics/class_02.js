@@ -20,3 +20,27 @@ let myObj = {
     age : 22,
 }
 console.log(typeof myObj);
+
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack(Premitive) , Heap(Non Premitive)
+
+//  Stack Memory Example
+let myrealName = "AniketDamami"
+
+let petName = myrealName
+petName = "Lucifer"
+
+console.log(myrealName);
+console.log(petName);
+
+
+//  Heap Memory Example
+let userOne = {
+    email : "userOne@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "Aniketkumar@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
